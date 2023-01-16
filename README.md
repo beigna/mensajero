@@ -10,6 +10,9 @@ El proyetco viene con un Makefile que genera una imagen de desarrollo en Docker.
 
 `requirements/prod.txt` -> Son las librerías que ¿se necesitan? para desarrollar el programa.
 
+### Comandos de Makefile
 `make docker-build-dev` creamos la imagen de desarrollo.
+
 `make docker-shell` instanciamos un contenedor que ejecuta Bash
+
 `make docker-pytest-watch` instanciamos un contenedor que ejecuta Pytest-Watch ;)
